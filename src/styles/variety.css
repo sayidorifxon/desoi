@@ -1,0 +1,117 @@
+.variety__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.variety{
+    padding: 18px 0 60px;
+}
+
+.variety__left h5{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #000;
+}
+.variety__left h2{
+    font-family: var(--third-family);
+font-weight: 700;
+font-size: 60px;
+line-height: 107%;
+color: #000;
+padding: 8px 0 16px ;
+}
+.variety__left p{
+    max-width: 560px;
+    width: 100%;
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 170%;
+color: #000;
+margin-bottom: 22px;
+}
+.variety__left a{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #000;
+}
+.variety__right img {
+    width: 100%;
+}
+@media(max-width:800px){
+    .variety__left h2 {
+        font-size: 46px;
+        padding: 8px 0 8px;
+    }
+}
+@media(max-width:800px){
+    .variety__left h2 {
+        font-size: 32px;
+        padding: 8px 0 8px;
+    }
+    .variety__left h5 {
+        font-weight: 700;
+        font-size: 12px;
+    }
+    .variety__left p {
+        font-size: 12px;
+        margin-bottom: 13px;
+    }
+    .variety__left a {
+        font-size: 12px;
+    }
+}
+@media(max-width:450px){
+    .variety__left h2 {
+        font-size: 29px;
+        padding: 5px 0 5px;
+    }
+    .variety__left h5 {
+        font-weight: 700;
+        font-size: 11px;
+    }
+    .variety__left p {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:375px){
+    .variety__wrapper{
+        flex-direction: column-reverse;
+    }
+    .variety__left{
+        padding: 34px 0 47px;
+        text-align: center;
+    }
+    .variety__left h5{
+        margin-top: 8px;
+font-weight: 700;
+font-size: 14px;
+    }
+    .variety__left h2 {
+font-weight: 700;
+font-size: 30px;
+line-height: 213%;
+margin-bottom: 8px;
+    }
+    .variety__left p{
+font-weight: 500;
+font-size: 12px;
+line-height: 170%;
+margin-bottom: 20px;
+    }
+    .variety__left a{
+font-weight: 700;
+font-size: 12px;
+letter-spacing: 0.1em;
+text-decoration-skip-ink: none;
+    }
+}

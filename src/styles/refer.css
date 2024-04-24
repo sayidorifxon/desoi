@@ -1,0 +1,76 @@
+.refer{
+    padding: 154px 0 159px;
+    background-image:url(../img/referbg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.refer p{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+margin-bottom: 18px;
+}
+.refer h2{
+    font-family: var(--third-family);
+font-weight: 700;
+font-size: 80px;
+line-height: 80%;
+text-align: center;
+color: #fff;
+margin-bottom: 51px;
+}
+.refer a{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+text-align: center;
+color: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+@media(max-width:600px){
+    .refer h2 {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 80%;
+        margin-bottom: 51px;
+    }
+    .refer p {
+        font-weight: 700;
+        font-size: 13px;
+        letter-spacing: 0.1em;
+        margin-bottom: 18px;
+    }
+    .refer a {
+        font-size: 13px;
+    }
+}
+@media(max-width:375px){
+    .refer p{
+font-weight: 700;
+font-size: 12px;
+letter-spacing: 0.1em;
+margin-bottom: 9px;
+    }
+    .refer h2{
+font-weight: 700;
+font-size: 45px;
+line-height: 142%;
+margin-bottom: 25px;
+    }
+    .refer {
+        padding: 120px 0;
+    }
+
+}

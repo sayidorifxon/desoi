@@ -1,0 +1,168 @@
+
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+    
+  }
+  .slidersection{
+    position: relative;
+    transform: scale(1);
+    padding: 69px 0 38px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    
+  
+    
+  }
+  .mySwiper .swiper-button-next::after{
+    display: none;
+    position: absolute;
+  }
+  .mySwiper .swiper-button-next::before{
+    content: url(../img/arrowright.png);
+    display: none;
+    position: fixed;
+    
+  }
+  .mySwiper .swiper-button-prev::after{
+    display: none;
+  }
+  .mySwiper .swiper-button-prev::before{
+    content: url(../img/arrowleft.png);
+    display: none;
+    position: fixed;
+  }
+  .slidersection h2{
+    font-family: var(--third-family);
+font-weight: 700;
+font-size: 70px;
+line-height: 91%;
+text-align: center;
+color: #000;
+margin-bottom: 60px;
+  }
+  .slidersection h3 {
+    font-family: var(--third-family);
+font-weight: 700;
+font-size: 27px;
+text-align: center;
+color: #000;
+margin-bottom: 15px;
+  }
+  .slidersection p {
+    max-width: 292px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 170%;
+text-align: center;
+color: #000;
+margin-bottom: 16px;
+  }
+  .slidersection a{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+text-align: center;
+color: #000;
+  }
+  @media(max-width:800px){
+    .mySwiper .swiper-button-next::before{
+      content: url(../img/arrowright.png);
+      display: block;
+      bottom: 460px;
+      
+    }
+    .mySwiper .swiper-button-prev::before{
+      content: url(../img/arrowleft.png);
+      display: block;
+      bottom: 460px;
+    }
+  }
+  @media(max-width:750px){
+    .mySwiper .swiper-button-next::before{
+      content: url(../img/arrowright.png);
+      display: block;
+      bottom: 410px;
+
+    }
+    .mySwiper .swiper-button-prev::before{
+      content: url(../img/arrowleft.png);
+      display: block;
+      bottom: 410px;
+    }
+  }
+  @media(max-width:600px){
+    .slidersection h2 {
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 91%;
+      margin-bottom: 25px;
+  }
+  .slidersection h3 {
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.slidersection p {
+  max-width: 292px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 125%;
+  margin-bottom: 16px;
+}
+.slidersection p {
+  max-width: 188px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 125%;
+  margin-bottom: 16px;
+}
+.mySwiper .swiper-button-next::before{
+  content: url(../img/arrowright.png);
+  display: block;
+  bottom: 370px;
+}
+.mySwiper .swiper-button-prev::before{
+  content: url(../img/arrowleft.png);
+  display: block;
+  bottom: 370px;
+}
+  }
+@media(max-width:375px){
+  .slidersection h2 {
+    font-family: var(--third-family);
+font-weight: 700;
+font-size: 35px;
+line-height: 183%;
+text-align: center;
+color: #000;
+  }
+  .mySwiper .swiper-button-next::before{
+    content: url(../img/arrowright.png);
+    display: block;
+    bottom: 380px;
+  }
+  .mySwiper .swiper-button-prev::before{
+    content: url(../img/arrowleft.png);
+    display: block;
+    bottom: 380px;
+  }
+}
+
+
+  
+  

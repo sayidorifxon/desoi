@@ -1,0 +1,375 @@
+.hidden{
+    display: none;
+    
+
+}
+.beveragescard{
+    max-width: 1444px;
+    width: 100%;
+    margin: 0 auto;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+align-items: center;
+}
+.card__left{
+    height: 637px;
+    padding: 165px 40px;
+    border-top: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+    border-right: 1px solid #cbcbcb;
+}
+.card__left h2{
+    font-family: var(--third-family);
+font-weight: 700;
+font-size: 50px;
+line-height: 128%;
+text-align: center;
+color: #000;
+margin-bottom: 8px;
+}
+.card__left h5{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 170%;
+text-align: center;
+color: #000;
+margin-bottom: 32px;
+}
+.left__middle{
+    padding: 15px 0;
+    border-top: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+}
+.left__middle span{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 12px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #000;
+}
+.left__middle p {
+    font-weight: 400;
+font-size: 14px;
+line-height: 170%;
+}
+.left__bottom{
+    padding: 15px 0;
+}
+.left__bottom span{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 12px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #000;
+}
+.left__bottom p{
+    font-weight: 400;
+font-size: 14px;
+line-height: 170%;
+}
+.card__middle{
+    height: 637px;
+    padding: 24px 51px;
+    border-top: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+}
+.coctail2 {
+width: 100%;
+height: 480px;
+}
+.card__middle h5{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 12px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-align: center;
+color: #000;
+margin-bottom: 9px;
+}
+.reviews{
+    margin-bottom: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card__middle p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 170%;
+text-align: center;
+color: #000;
+margin-bottom: 9px;
+}
+.card__middle a{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+text-align: center;
+color: #000;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.card__right{
+    height: 637px;
+    padding: 24px 51px;
+    border-top: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+    border-left: 1px solid #cbcbcb;
+}
+.card__right h5{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 12px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-align: center;
+color: #000;
+margin-bottom: 9px;
+}
+.card__right p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 170%;
+text-align: center;
+color: #000;
+margin-bottom: 9px;
+}
+.card__right a{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+text-align: center;
+color: #000;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+@media(max-width:1000px){
+    .card__left {
+        height: 500px;
+        padding: 100px 40px;
+    }
+    .card__left h2 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 128%;
+        margin-bottom: 5px;
+    }
+    .card__left h5 {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 170%;
+        margin-bottom: 19px;
+    }
+    .left__middle span {
+        font-weight: 700;
+        font-size: 10px;
+        letter-spacing: 0.1em;
+    }
+    .left__middle p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 145%;
+    }
+    .left__bottom span {
+        font-weight: 700;
+        font-size: 10px;
+        letter-spacing: 0.1em;
+    }
+    .left__bottom p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 145%;
+    }
+    .card__middle {
+        height: 500px;
+        padding: 24px 51px;
+    }
+    .card__right {
+        height: 500px;
+        padding: 24px 51px;
+    }
+    .coctail2 {
+        width: 100%;
+        height: 310px;
+    }
+}
+@media(max-width:800px){
+    .card__left h2 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 128%;
+        margin-bottom: 5px;
+    }
+    .card__left {
+        height: 500px;
+        padding: 60px 40px;
+    }
+    .card__left h5 {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 170%;
+        margin-bottom: 10px;
+    }
+    .left__middle span {
+        font-weight: 700;
+        font-size: 9px;
+        letter-spacing: 0.1em;
+    }
+    .left__middle p {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 145%;
+    }
+    .left__bottom span {
+        font-weight: 700;
+        font-size: 9px;
+        letter-spacing: 0.1em;
+    }
+    .left__bottom p {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 145%;
+    }
+    .left__middle {
+        padding: 8px 0;
+    }
+    .left__bottom {
+        padding: 8px 0;
+    }
+}
+@media(max-width:600px){
+    .card__left h2 {
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 128%;
+        margin-bottom: 3px;
+    }
+    .card__left h5 {
+        font-weight: 500;
+        font-size: 7px;
+        line-height: 170%;
+        margin-bottom: 7px;
+    }
+    .left__middle span {
+        font-weight: 700;
+        font-size: 6px;
+        letter-spacing: 0.1em;
+    }
+    .left__middle p {
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 110%;
+    }
+    .left__bottom span {
+        font-weight: 700;
+        font-size: 6px;
+        letter-spacing: 0.1em;
+    }
+    .left__bottom p {
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 110%;
+    }
+}
+@media(max-width:560px){
+    .card__left{
+        display: none;
+    }
+    .card__middle{
+        display: none;
+    }
+    .card__right{
+        display: none;
+    }
+    .hidden{
+        padding: 24px 0 47px;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 375px;
+    width: 100%;
+    margin: 0 auto;
+    }
+    .beveragescard{
+        max-width: 1444px;
+        width: 100%;
+        margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .hidden p{
+        font-family: var(--second-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 170%;
+text-align: center;
+color: #000;
+margin-bottom: 24px;
+    }
+    .hidden h5 {
+        font-family: var(--third-family);
+font-weight: 700;
+font-size: 28px;
+line-height: 148%;
+color: #000;
+margin-bottom: 8px;
+    }
+    .reviews{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .prices{
+        margin-top: 8px;
+        
+    }
+    .prices p {
+        font-family: var(--second-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 170%;
+color: #000;
+    }
+    .prices p span{
+        font-family: var(--second-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 170%;
+text-decoration: line-through;
+color: #000;
+opacity: 0.5;
+    }
+    .hidden a{
+        font-family: var(--font-family);
+font-weight: 700;
+font-size: 12px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+text-align: center;
+color: #000;
+    }
+}
+
+

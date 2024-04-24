@@ -1,0 +1,112 @@
+.accordion {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 16px 0 17px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    max-width: 720px;
+    width: 100%;
+    border-top: 1px solid #cbcbcb;
+    
+  }
+  .faq__accordion{
+    padding-right: 10px;
+  }
+  
+  .panel {
+    max-width: 720px;
+    width: 100%;
+    padding:  0 0 20px;
+    display: none;
+    overflow: hidden;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 13px;
+line-height: 170%;
+color: #fff;
+  }
+  .show__acc{
+    display: block;
+  }
+  .faq{
+    padding: 80px 0;
+    background: #000;
+  }
+  .faq__wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 185px;
+    
+  }
+  .faq__wrapper h2{
+    max-width: 335px;
+    width: 100%;
+    font-family: var(--third-family);
+font-weight: 700;
+font-size: 70px;
+color: #eae5dd;
+  }
+  @media(max-width:1000px){
+    .faq__wrapper {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 70px;
+  }
+  .faq__wrapper h2 {
+    max-width: 200px;
+    width: 100%;
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 43px;
+    color: #eae5dd;
+}
+.faq {
+  padding: 37px 0;
+  background: #000;
+}
+  }
+  @media(max-width:600px){
+    .faq__wrapper{
+      flex-direction: column;
+      gap: 20px;
+    }
+    .faq__wrapper h2 {
+      max-width: 370px;
+      width: 100%;
+      margin: 0 auto;
+      font-family: var(--third-family);
+      font-weight: 700;
+      font-size: 28px;
+      color: #eae5dd;
+  }
+  .accordion {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 8px 0 8px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    max-width: 720px;
+    width: 100%;
+    border-top: 1px solid #cbcbcb;
+}
+  }
+  @media(max-width:375px){
+    .faq__wrapper h2{
+      max-width: 343px;
+      width: 100%;
+      margin: 0 auto;
+      font-family: var(--third-family);
+font-weight: 700;
+font-size: 32px;
+text-align: center;
+color: #fff;
+    }
+  }

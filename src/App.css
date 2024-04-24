@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+
+}
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "Manrope", sans-serif;
+    --third-family: "Philosopher", sans-serif;
+  }
+.container{
+    max-width: 1470px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px ;
+}
+.bagcontainer{
+    max-width: 990px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px ;
+}
+li{
+    list-style: none;
+}
+.shop__hero__top{
+    padding: 8px 85px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-top: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+
+}
+.shop__hero__top img {
+    margin: 0 8px;
+}
+.shop__hero__top h4{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 170%;
+color: #000;
+opacity: 0.5;
+}
+.shop__hero__top h3{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 170%;
+color: #000;
+}
+.shop__hero h2{
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 91%;
+    text-align: center;
+    color: #000;
+    padding: 40px 0 62px;
+}
+@media(max-width:600px){
+    .shop__hero h2 {
+        font-family: var(--third-family);
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 91%;
+        text-align: center;
+        color: #000;
+        padding: 25px 0 25px;
+    }
+}
+@media(max-width:375px){
+    .shop__hero h2{
+        font-family: var(--third-family);
+font-weight: 700;
+font-size: 40px;
+color: #000;
+    }
+}
+.bagtext{
+    padding: 10px 0;
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 55px;
+    text-align: center;
+    color: #000;
+}

@@ -1,0 +1,7 @@
+main h1 {
+    font-family: var(--third-family);
+font-weight: 700;
+font-size: 72px;
+text-align: center;
+color: #000;
+}

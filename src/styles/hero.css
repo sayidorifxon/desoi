@@ -1,0 +1,243 @@
+.hero__wrapper{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.hero__left{
+    background-image: url(../img/Heroimg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero__right{
+    position: relative;
+    text-align: center;
+    padding: 332px 0 337px;
+}
+.hero__right p{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-align: center;
+color: #000;
+margin-bottom: 45px;
+}
+.hero__right h1 {
+    max-width: 473px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: var(--third-family);
+font-weight: 700;
+font-size: 75px;
+line-height: 85%;
+text-align: center;
+color: #000;
+margin-bottom: 46px;
+}
+.hero__right a {
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+text-align: center;
+color: #000;
+}
+.heroimg{
+    position: absolute;
+    top: 191px;
+    left: 157px;
+    z-index: -1;
+}
+@media(max-width:1400px){
+    .heroimg {
+        left: 137px;
+    }
+}
+@media(max-width:1300px){
+    .heroimg {
+        left: 114px;
+    } 
+}
+@media(max-width:1200px){
+    .heroimg {
+        left: 87px;
+    }
+}
+@media(max-width:1100px){
+    .heroimg {
+        left: 63px;
+    }
+}
+@media(max-width:1000px){
+    .heroimg{
+        width: 356px;
+        top: 144px;
+        left: 63px;
+    }
+    .hero__right {
+        position: relative;
+        text-align: center;
+        padding: 250px 0 200px;
+    }
+    
+}
+@media(max-width:900px){
+    .heroimg {
+        width: 356px;
+        top: 144px;
+        left: 40px;
+    }
+    .hero__right h1 {
+        max-width: 473px;
+        width: 100%;
+        font-weight: 700;
+        font-size: 59px;
+        line-height: 85%;
+        margin-bottom: 46px;
+    }
+    .hero__right p {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 13px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #000;
+        margin-bottom: 22px;
+    }
+    .hero__right {
+        padding: 198px 0 236px;
+    }
+    .heroimg {
+        width: 356px;
+        top: 84px;
+        left: 40px;
+    }
+}
+@media(max-width:800px){
+    .heroimg {
+        width: 299px;
+        top: 67px;
+        left: 42px;
+    }
+    .hero__right {
+        padding: 153px 0 180px;
+    }
+}
+@media(max-width:700px){
+    .hero__right h1 {
+        max-width: 473px;
+        width: 100%;
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 85%;
+        margin-bottom: 14px;
+    }
+    .heroimg {
+        width: 251px;
+        top: 38px;
+        left: 42px;
+    }
+    .hero__right p {
+        font-weight: 700;
+        font-size: 10px;
+        margin-bottom: 9px;
+    }
+    .hero__right a {
+        font-weight: 700;
+        font-size: 10px;
+    }
+    .hero__right {
+        padding: 126px 0 169px;
+    }
+}
+@media(max-width:650px){
+    .heroimg {
+        width: 219px;
+        top: 40px;
+        left: 46px;
+    }
+    .hero__right {
+        padding: 126px 0 113px;
+    }
+    .hero__right h1 {
+        max-width: 473px;
+        width: 100%;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 85%;
+        margin-bottom: 14px;
+    }
+    
+}
+@media(max-width:600px){
+    .heroimg {
+        width: 186px;
+        top: 55px;
+        left: 46px;
+    }
+    .hero__right {
+        padding: 103px 0 104px;
+    }
+    .hero__right h1 {
+        max-width: 473px;
+        width: 100%;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 85%;
+        margin-bottom: 14px;
+    }
+    .hero__right p {
+        font-weight: 700;
+        font-size: 8px;
+        margin-bottom: 9px;
+    }
+    .hero__right a {
+        font-weight: 700;
+        font-size: 8px;
+    }
+
+}
+@media(max-width:500px){
+
+    .hero__right h1 {
+        max-width: 473px;
+        width: 100%;
+        font-weight: 600;
+        font-size: 29px;
+        line-height: 85%;
+        margin-bottom: 14px;
+    }
+    .heroimg {
+        width: 151px;
+        top: 55px;
+        left: 45px;
+    }
+}
+@media(max-width:450px){
+    .heroimg {
+        width: 151px;
+        top: 55px;
+        left: 28px;
+    }
+}
+@media(max-width:450px){
+    .heroimg {
+        width: 151px;
+        top: 55px;
+        left: 13px;
+    }
+    .hero__right {
+        padding: 57px 0 82px;
+    }
+    .heroimg {
+        width: 151px;
+        top: 21px;
+        left: 13px;
+    }
+}
