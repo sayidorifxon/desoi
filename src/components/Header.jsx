@@ -24,9 +24,7 @@ function Header() {
           <ul>
             <NavLink className="navlink" to="/shop">Shop</NavLink>
             <li>About</li>
-            <li>Fun stuff</li>
             <li>Find us</li>
-            <li>USA</li>
             <li>Contact</li>
             <li>log in</li>
             <NavLink to="/bag">bag</NavLink>

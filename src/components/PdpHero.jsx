@@ -35,7 +35,7 @@ function PdpHero() {
     }
   return (
     <section className='pdphero'>
-      <div className="container">
+      <div className="pdpcontainer">
         <div className="pdp__wrapper">
             <div className="pdp__left">
                 <div className="left__first">
@@ -86,7 +86,7 @@ function PdpHero() {
                     </div>
                 </div>
                 <div className="quantity2">
-                    <h5>Quantity2</h5>
+                    <h5>Quantity</h5>
                     <p>Complimentary domestic shipping on 2+ bottles.</p>
 
                 </div>

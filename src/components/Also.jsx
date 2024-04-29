@@ -44,7 +44,7 @@ function Also() {
         </SwiperSlide>
         <SwiperSlide>
             <div className="alsocard">
-                <img src={img} alt="" />
+                <img className='alsocardimg' src={img} alt="" />
                 <h3>Full - bodied</h3>
                 <h5>Bottle</h5>
                 <div className="reviews">
@@ -57,7 +57,7 @@ function Also() {
         </SwiperSlide>
         <SwiperSlide>
             <div className="alsocard">
-                <img src={img} alt="" />
+                <img className='alsocardimg' src={img} alt="" />
                 <h3>Full - bodied</h3>
                 <h5>Bottle</h5>
                 <div className="reviews">
@@ -70,7 +70,7 @@ function Also() {
         </SwiperSlide>
         <SwiperSlide>
             <div className="alsocard">
-                <img src={img} alt="" />
+                <img className='alsocardimg' src={img} alt="" />
                 <h3>Full - bodied</h3>
                 <h5>Bottle</h5>
                 <div className="reviews">
